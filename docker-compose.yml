@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    tty: true
+    volumes:
+      - type: bind
+        source: .
+        target: /react
+    environment:
+      TZ: Asia/Tokyo
+    ports:
+      - '3000:3000'
