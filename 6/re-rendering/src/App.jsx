@@ -19,7 +19,7 @@ export const App = memo(() => {
     <>
       <button onClick={onClickButton}>ボタン</button>
       <p>{num}</p>
-      <Child1 onClickReset={onClickReset} />
+      <Child1 onClickReset={onClickReset}/>
       <Child4 />
     </>
   );
