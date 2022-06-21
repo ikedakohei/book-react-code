@@ -12,7 +12,6 @@ const style = {
   alignItems: "center",
 };
 
-// シンプルになった!
 export const Card = () => {
   return (
     <div style={style}>
